@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(246, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(222, 226, 228);
+    overflow: hidden;
+    border: 2px solid;
+    border-radius: 25px;
+}
+.a{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    width: 45%;
+    height: 20%;
+    margin: 5px;
+}
+.a2{
+    width: 10%;
+    height: 20%;
+    margin: 5px;
+}
+.b{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    list-style: none;
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+ 
+}
+#li-decor {
+    text-decoration: line-through #222;
+}
+
+button{
+    width: 25px;
+    height: 20px;
+    margin-left: 5px; 
+}
+.b1{
+    width: 15%;
+    height: 10%;
+    border-radius: 25px;
+    background-color: rgb(114, 143, 143);
+    position: absolute;
+    top: 85%;
+    left:5%;
+}
+.b2{
+    width: 35%;
+    height: 10%;
+    border-radius: 25px;
+    background-color:rgb(114, 143, 143) ;
+    position: absolute;
+    top: 85%;
+    right:5%;
+}
+#total{
+    position: absolute;
+    color: blue;
+}
